@@ -4,17 +4,16 @@
 # nano save
 *.save
 
-# Test scripts
-arm-eabi-5.0
-all-5.0
-
 # libtool scripts
 *.la
 
+# Uneeded toolchain files
 lib/gcc/aarch64-linux-android/4.9.x-aosp-sabermod/pkgconfig/
 lib/gcc/aarch64-linux-android/4.9.x-sabermod/pkgconfig/
 lib/gcc/aarch64-linux-android/4.8.x-sabermod/pkgconfig/
+lib/gcc/arm-linux-androideabi/5.0.x-sabermod/pkgconfig/
 lib/gcc/arm-linux-androideabi/4.9.x-sabermod/pkgconfig/
 lib/gcc/arm-linux-androideabi/4.8.x-sabermod/pkgconfig/
+lib/gcc/arm-eabi/5.0.x-sabermod/pkgconfig/
 lib/gcc/arm-eabi/4.9.x-sabermod/pkgconfig/
 lib/gcc/arm-eabi/4.8.x-sabermod/pkgconfig/

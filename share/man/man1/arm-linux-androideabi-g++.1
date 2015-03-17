@@ -133,7 +133,7 @@
 .\" ========================================================================
 .\"
 .IX Title "GCC 1"
-.TH GCC 1 "2015-03-11" "gcc-4.8.x-sabermod" "GNU"
+.TH GCC 1 "2015-03-17" "gcc-4.8.x-sabermod" "GNU"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -17690,9 +17690,9 @@ The \fIstack-guard\fR option can only be used in conjunction with \fIstack-size\
 If the hotpatch option is enabled, a \*(L"hot-patching\*(R" function
 prologue is generated for all functions in the compilation unit.
 The funtion label is prepended with the given number of two-byte
-Nop instructions (\fIpre-halfwords\fR, maximum 1000000).  After
+\&\s-1NOP\s0 instructions (\fIpre-halfwords\fR, maximum 1000000).  After
 the label, 2 * \fIpost-halfwords\fR bytes are appended, using the
-larges nop like instructions the architecture allows (maximum
+largest \s-1NOP\s0 like instructions the architecture allows (maximum
 1000000).
 .Sp
 If both arguments are zero, hotpatching is disabled.
